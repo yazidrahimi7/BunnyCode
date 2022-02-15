@@ -52,7 +52,7 @@
         <p style="margin-top: 50px">Exercise:</p>
         <br />
         <div class="codeBlock">
-          <p>Try to apply Inline CSS to center the text.</p>
+          <p>Try to apply Inline CSS to center the image.</p>
           <label for="inp" class="inp">
             <input
               type="text"

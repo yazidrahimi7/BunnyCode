@@ -150,9 +150,10 @@ export default {
 
   methods: {
     ans() {
-      let ans1 = "color: #fff;";
+      let ans1 = "black";
       // let ans1 = "1";
-      let ans2 = "color: green;";
+      let ans2 = "green";
+      let ans3 = "blue";
 
       if (this.userInput == ans1) {
         this.answer = true;
@@ -160,7 +161,11 @@ export default {
       } else if (this.userInput == ans2) {
         this.answer = true;
         return true;
-      } else return false;
+      } else if (this.userInput == ans3){
+        this.answer = true;
+        return true;
+      }
+       else return false;
     },
   },
 };
